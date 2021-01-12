@@ -1,5 +1,13 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/d580e86412cf40f2bbd367936a0f6b49)](https://www.codacy.com/gh/nejdetkadir/speech-to-text-and-text-to-speech/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nejdetkadir/speech-to-text-and-text-to-speech&amp;utm_campaign=Badge_Grade)
+
 # speech-to-text-and-text-to-speech
 A sample app that showcases how to can i convert speech to text and text to speech.
+
+# Demo
+View online demo from [here](https://tts-stt.nejdetkadirr.tech/)
+
+# Screenshot
+![cover](doc/cover.png)
 
 # LICENSE
 ```
