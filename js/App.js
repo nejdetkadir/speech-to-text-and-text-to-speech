@@ -36,6 +36,7 @@ listenBtn.addEventListener('click', () => {
       voices.forEach(v => {
         let option = document.createElement('option');
         option.text = option.value = v.name;
+        option.setAttribute('data-id', v.lang);
         voiceList.appendChild(option);
       })
     }).catch((e) => {
@@ -50,6 +51,7 @@ ttsBtn.addEventListener("click", () => {
     let selectedVoice = voiceList.value;
     let speak = new SpeechSynthesisUtterance(text);
     speak.SpeechSynthesisVoice = selectedVoice;
+    speak.lang = voiceList.selectedOptions[0].getAttribute("data-id")
     tts.speak(speak);
   } else {
     alert('Error!');
