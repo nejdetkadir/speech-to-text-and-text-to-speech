@@ -1,3 +1,7 @@
 #main-area{
     margin-top: 100px;
 }
+
+.form-check-input{
+    float: none !important;
+}

@@ -1,5 +1,5 @@
 # speech-to-text-and-text-to-speech
-A sample app that showcases how to use webkitSpeechRecognition and SpeechSynthesisUtterance
+A sample app that showcases how to can i convert speech to text and text to speech.
 
 # LICENSE
 ```
